@@ -1,0 +1,670 @@
+/****Header responsive*****/
+/* @media(max-width:1180px) {
+    .home-category img {
+        width: 45.9rem;
+        box-shadow:-9px 5px 10px rgba(70, 69, 69, 0.8);
+    }
+    .home-category{
+        flex-wrap: wrap;
+        justify-content: center;
+    }  
+    .home-category .cat-txt{
+        width: 100%;
+    }
+} */
+@media only screen and (min-width: 1281px) and (max-width: 1505px){
+    .main-background{
+        width: 120% ;
+    }
+    .container-first{
+        width: 120%;
+    }
+    .container-2{
+        padding:  10.0rem 20.0rem;
+    }
+}
+
+@media(max-width:2000px){
+    .home-category {
+        justify-content: center;
+    }
+}
+@media(max-width:1280px) {
+    
+    html {
+        font-size: 45%;
+    }
+    .desktop-view {
+        display: none;
+    }
+    .container-first {
+        padding-bottom: 2rem;
+        padding-right: 24rem;
+        padding-left: 24rem;
+    }
+    .responsive-navbar {
+        width: 80%;
+    }
+    .main-background {
+        width:100%;
+        
+    }
+    .header-area {
+        height: 21.0rem;
+        display: flex;
+        margin: 0 auto;
+        
+    }
+    .header-top {     
+        flex-direction: column;
+        padding-left: 45.5%;
+    }
+    .main-menu {
+        padding-top: 20px;
+    }
+    .header-top .main-menu ul li a {
+        color: rgba(0, 0, 0, 0.658);
+    }
+    .header-login {
+        display: flex;
+        align-self: flex-end;
+        padding-top: 1.0rem;
+        margin-bottom: 8px;
+    }
+    .header-logo img {
+        width: 50rem;
+    }
+    .responsive-navbar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        margin-top: 1.2rem;
+    }
+    .header-login button{
+        font-size: 1.5rem;
+    }
+    .header-login img {
+        filter: brightness(30%);
+        width: 6rem;
+    }
+    .responsive-navbar a{
+        font-size: 1.5rem;
+    }
+    
+    /***********HEADER - MIDDLE **************/
+    .portfolio-1{
+        margin-top: 8.5rem;
+    }
+    .sage-area {
+        padding-top: 6rem;
+        padding-bottom: 2rem;
+    }
+    .container-2{
+        padding: 10rem 10rem;}  
+    .city-area {
+        padding-bottom: 10rem ;
+    }
+    .text-title img {
+        width: 30rem;
+    }
+    .text-title h1 {
+        font-size: 10.6rem;
+    }
+    .header-middle h3 {
+        font-size: 4.5rem;
+        margin: 0 40px;
+        color: white;
+    }
+    .sage-area p {
+        color: #ffffffbd;
+        font-size: 2.5rem;
+        margin: 0 150px;
+        padding-top: 28px;
+    }
+    .btn-3-box {
+        padding-right: 45px;
+        padding-left: 45px;
+    }
+    .btn-3-box>p {
+        padding-left: 10px;
+        font-size: 2.2rem;
+    }
+    .searchInput {
+        font-size: 1.9rem;
+    }
+    .btn-3-box img {
+        width: 3rem;
+    }
+       
+    p {
+        padding-left: 10px;
+        font-size: 9px;
+    }
+    .header-bottom {
+        margin-top: 10rem;
+    }
+    .button-link-text {
+        font-size: 2rem;
+    }
+    /************PORTFOLIO -1 *************/
+
+
+    .home-category img {
+        width: 47.9rem;
+        box-shadow:-9px 5px 10px rgba(70, 69, 69, 0.8);
+    }
+    .home-category{
+        flex-wrap: wrap;
+        justify-content: center;
+    }  
+    .home-category .cat-txt{
+        width: 100%;
+        padding:0;
+        padding-bottom:20px
+        
+    }
+    .home-category h3 {
+        font-size: 3.7rem;
+    }
+    .portfolio-1 p {
+        font-size: 2.4rem;
+    }    
+
+     
+    .container-2 .question-1 {
+        padding-top: 6rem;
+        font-size: 2.2rem;
+    }
+    .price-fact h3 {
+        font-size: 3.4rem;
+    }
+    .price-fact h5{
+        font-size: 2.2rem;
+    }
+    /********album*****/
+    .portfolio-3-bottom p {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin-right: 35px;
+    }
+    /************portfolio-4****************/
+    .portfolio-4 h1{
+        font-size: 7rem;
+    }
+   
+    .container-5 {
+        padding-left: 0rem; 
+        padding-right: 0rem;
+        text-align: none; 
+    }
+    .portfolio-4-mid {
+        flex-direction: column;
+    }
+    .mid-left-context {
+        padding-bottom: 10rem;
+    }
+    .mid-right-context {
+        width: 320px;
+        margin: 0 auto;
+    }
+    .mid-right-context > img:nth-child(2) {
+        right: 15px;
+        top: 6px;
+    }
+    .reality-seg-pera p {
+        margin-top: -2.2rem;
+        font-size: 2.6rem;
+    }
+
+    /**************PORTFOILIO 2***********/
+    .click-button {
+        flex-direction: column;display: flex;align-items: center;justify-content: space-between;
+    }
+    .click-button button {
+        margin-bottom: 20px;;
+    }
+    .option-fact > .score-box {
+        position: absolute;
+        top: 35px;
+        right: 8px;
+    }
+    .option-fact h3 {
+        font-size: 25px;
+    }
+    .option-fact p{
+        font-size: 1rem;
+    }
+
+
+    .context-1-network {
+        
+        min-height: 26.6rem;
+    }
+    .context-2-money{
+        min-height: 26.6rem;
+    }
+
+    /**********footer **************/
+    
+    input[type="submit"]{
+        font-size: 1.5rem;
+    }
+    .footer-subscribe input[type="email"] {
+        border-radius: 45px;
+        padding-top: 1.9rem;
+        padding-bottom: 1.3rem;
+
+    }
+    #usermail {
+        font-size: 13px;
+
+    }
+    #submit {
+        padding-bottom: 1.6rem;
+        padding-top: 2.4rem;
+    }
+    
+    .customer-logos.slider.slick-initialized.slick-slider {
+        width: 40%;
+        margin-bottom: 43px;
+    }
+    .slick-list.draggable {
+        padding-top: 2.0rem;
+        margin-left: 6.0rem;       
+    }
+
+}
+
+/********** NEST HUB ************/
+@media(max-width:1180px){
+    .container-first {
+        padding-left: 18rem;
+    }
+}
+
+@media (max-width: 1024px){
+    .main-background{
+        width: 115%;
+    }
+    .container-first{
+        padding-left: 21%;
+    }
+    
+    .header-top {     
+        flex-direction: column;
+        padding-left: 28.5%;
+    }
+    .responsive-navbar {
+        width: 80%;
+    }
+    .slick-list.draggable {
+        margin-left: 6rem;       
+    }
+    .sponser-logo-area{
+        flex-wrap: wrap;
+        gap: 3rem;  
+    }
+    .logo-awards-1 {
+        gap: 7rem;
+    }
+    .logo-awards-2{
+        gap: 5rem;
+    }
+}
+/*** SURFACE PRO 7 *****/
+
+@media (max-width: 914px){
+    .container-first{
+        padding-left: 18%;
+    }
+}
+
+/********** iPAD AiR ***********/
+    
+@media (max-width: 822px){
+    .container-first {
+        padding-left: 21%;
+    }
+    .main-background {
+        width: 116%;
+    }
+.header-top {
+    padding-left: 20.5%;
+    }
+.responsive-navbar {
+    width: 70%;
+    }
+}
+
+/********** iPAD MiNi ***********/
+
+@media(max-width:768px){
+    .main-background{
+        width: 130% ;
+    }
+    .header-top {
+        padding-left: 25.5%;
+    }
+    .container-first {
+        padding-left: 21rem;
+    }
+    
+}
+/****** GALAXY FOLD *********/
+@media (max-width: 718px){
+    .container-first {
+        padding-left: 18rem;
+    }
+}
+vcv
+/************* SURFACE DUO *************/
+
+@media(max-width:546px){
+    .main-background {
+        width: 175%;
+    }
+    .container-first {
+        padding-left: 20rem;
+    }
+}
+
+
+@media(max-width:415px) {
+    .main-background{
+        width: 251%;
+    }
+    .desktop-view {
+        display: none;
+    }
+    
+    /*********album-1**********/
+    h1 {
+        font-size: 11.6rem;
+    }
+    .header-area {
+        height: 35rem;
+    }
+    .container-first {
+        padding-right: 1rem;
+        padding-left: 2.5rem;
+    }
+    .header-logo img {
+        width: 80rem;
+        margin-bottom: 6rem;
+    }
+    .responsive-navbar {
+        width: 83%;
+    }
+    .responsive-navbar a {
+        font-size: 3rem;
+    }
+    .header-login button {
+        font-size: 2.5rem;
+    }
+    .header-login img {
+        width: 8rem
+    }
+    
+    .text-title{
+        margin-bottom: 10px;
+    }
+    .text-title img {
+        width: 31rem;
+    }
+    .header-middle h3 {
+        font-size: 4.5rem;
+        margin: 0 5px;
+        font-weight: 500;
+    }
+    .sage-area p {
+        color: #ffffffbd;
+        font-size: 4rem;
+        margin: 0px 13.5rem;
+    }
+    .header-bottom {
+        margin-top: 18rem;
+    }
+    .portfolio-1 {
+        margin-top: 17.5rem;
+    }
+
+    .sage-area {
+        padding-bottom: 5rem;
+    }
+    .join-area {
+        margin-top:6.5rem;
+    }
+    .btn-3-box img {
+        width: 7rem;
+        margin-right: 1.5rem;
+    }
+    .btn-3-box{
+        padding-right: 7.0rem;
+        padding-left: 7.0rem;
+        border-radius: 3rem 3rem 0 0;
+        padding-top: 1.0rem;
+    }
+    
+    .btn-3-box>p {
+        font-size: 3.7rem;
+    }
+
+    p {
+        padding-left: 1.0rem;
+        font-size: 9px;
+    }
+    .container-2{
+        padding: 2rem 1rem;}  
+    .city-area {
+        padding-bottom: 5rem ;
+        padding-top: 4rem;
+    }
+    
+    .searchBox {
+        width: 60%;
+        padding: 2rem;
+    }
+    .searchInput {
+        width: 74rem;
+        font-size: 3.2rem;
+    }
+    .searchButton {
+        width: 6rem;
+        height: 6rem;
+        margin-top: -1rem;
+    }
+    .join-area > .first-btn{
+        font-size: 3.5rem;
+    }
+    .first-btn img {
+        width: 8%;
+        margin-top: -1.5rem;
+        padding-left: 1.0rem;
+
+    }
+    .button-link-text {
+        font-size: 3.5rem;
+    }
+    .first-btn .fas.fa-caret-right{
+        font-size: 3rem !important;
+        padding-right: 1rem;
+    }
+    .container-2 .question-1 {
+        font-size: 3rem;
+    }
+    
+    /********** CONTAINER - 4 *************/
+
+    .container-4 h1 {
+        font-size: 7.7rem;
+    }
+    .container-4 h4 {
+        font-size: 4rem;
+        margin: 1.5rem 17.2rem;
+    }
+    .container-4 h5 {
+        font-size: 3.5rem;
+    }
+    .home-category h3 {
+        font-size: 3.5rem;
+    }
+    .portfolio-1 p {
+        font-size: 2.7rem;
+        margin-top: .5rem;
+    }
+    .explore-btn {
+        padding: 0 5em;
+        padding-top: 1rem;
+    }
+    .click-button button {
+        font-size: 3.5rem;
+        border-radius: 3.5rem;
+    }
+    
+
+    /******* CONTAINER 5 *******/
+
+    .container-5 h1 {
+        font-size: 8.7rem;
+    }
+    .container-5 h4 {
+        font-size: 4rem;
+    }
+    .context-1-network {
+        width: 130rem;
+        min-height: 40.6rem;
+        border-radius: 30.8rem;      
+    }
+    .img-circle-shape {
+        height: 35rem;
+        width: 35rem;
+    }
+    .context-2-money{
+        width: 130rem;
+        min-height: 40.6rem;
+        border-radius: 30.8rem; 
+    }
+    .profile-left {
+        padding-right: 2rem;
+    }
+    .button-link-text-2{       
+        font-size: 2.5rem;       
+    }
+    .container-5 h2 {
+        font-size: 4.6rem;
+    }
+    .portfolio-3-bottom p {
+        font-size: 3rem;
+        line-height: 4.5rem;
+        margin-right: 17px;
+    
+    }
+    .portfolio-4-top {
+        padding: 0 9%;
+    }
+    .reality-seg-pera p{
+        font-size: 3.2rem;
+        line-height: 6rem !important;
+        margin-bottom: 82px;
+    }   
+    .sega-logo img {
+        width: 24rem;
+    }
+    .mid-left-context .last-btn {
+        padding: 2rem 5rem;
+        border-radius: 5rem;
+        padding-top: 2.5rem;
+    }
+    .mid-right-context {
+        width: 420px;
+    }
+    .mid-right-context img {
+        width: 50rem;
+    }
+    .mid-right-context > img:nth-child(2) {
+        right: 30px;
+    }
+    /********* footer *********/
+    .footer-mailing h2{
+        font-size: 3rem;
+    }
+    #submit {
+        padding-top: 2.1rem;
+    }
+    input[type="submit"] {
+        font-size: 2rem;
+    }
+    #usermail {
+        font-size: 15px;
+    }
+    .footer-subscribe input[type="email"] {
+        padding-top: 1.8rem;
+        padding-bottom: 1.5rem;
+    }
+    .footer-table a {
+        font-size: 1.7rem;
+    }
+    .price-fact {
+        width: 76%;
+    }
+    .price-fact h5 {
+        font-size: 3rem;
+    }
+    .price-fact h3 {
+        font-size: 4rem;
+    }
+    .option-fact > .score-box {
+        position: absolute;
+        top: 35px;
+        right: 8px;
+    }
+    .slick-slide img {
+        width: 104%;
+    }
+    .option-fact p {
+        
+        font-size: 1rem;
+    }
+}
+@media (max-width: 396px){
+    .container-first{
+        padding: 0;
+    }
+    .img-circle-shape {
+        height: 30rem;
+        width: 30rem;
+    }
+}
+@media (max-width: 376px){
+    .header-top{
+        padding-left:22.5%
+    }
+    .responsive-navbar{
+        width: 77%;
+    }
+    .searchInput {
+        width: 56rem;
+}
+@media (max-width: 361px){
+    .main-background{
+        width: 260%;
+    }
+    .context-1-network{
+        width: 125rem;
+    }
+    .context-2-money{
+        width: 125rem;
+    }
+}
+
+/***** GALAXY FOLD *****/
+
+@media(max-width:281px){
+    .main-background {
+        width: 320%;
+    }
+    .container-first {
+        margin-left: -8%;
+    }
+}
